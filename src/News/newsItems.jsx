@@ -25,7 +25,8 @@ import Alphonsa_img1 from "/src/Gallery/GalleryImages/St Alphonsa College/img1.j
 import satmodel_img1 from "/src/Gallery/GalleryImages/satmodel/satmodel_img1.jpeg";
 
 import IDEBootcamp from "./NewsImages/IDE-Bootcamp.jpeg";
-
+import prize from "/2prize.jpg"
+import rocketImg from "/rocket-img.jpg";
 export const newsItems = [
   {
     id: 1,
@@ -33,8 +34,7 @@ export const newsItems = [
     date: "October 19, 2024",
     description:
       "We’re thrilled to announce that our Team from Tessat Space Pvt Ltd., led by Mr Edwin K Jayesh (CEO) and Mr Joseph Binil (COO), has won 2nd place at INNOVISION, the premier idea-pitching competition at IEDC Summit'24 hosted by IEDC NIT Calicut! 🥈💡In recognition of their creativity and dedication, they have been awarded this distinguished honor, accompanied by a cash prize 🎉",
-    image:
-      "https://plus.unsplash.com/premium_photo-1713269624602-60e8891d65a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Mm5kJTIwcHJpemV8ZW58MHx8MHx8fDA%3D",
+    image: prize,
     category: "Recognition",
   },
   {
@@ -115,8 +115,7 @@ export const newsItems = [
     date: "",
     description:
       "  we are delighted to announce that we have registered for IN-SPACe CANSAT India Student Competition 2024-25 (2nd Edition) This will be a major stepping stone for our CANSAT projects. As they have provided mission requirements for the project we will analysing to make this system more eco-friendly and future proof. We will keep it updated in future",
-    image:
-      "https://images.unsplash.com/photo-1636819488537-a9b1ffb315ce?auto=format&fit=crop&q=80&w=800",
+    image: rocketImg,
     category: "Recognition",
   },
   {

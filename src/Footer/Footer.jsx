@@ -238,11 +238,11 @@ function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-800 py-8">
+        {/* <div className="border-t border-gray-800 py-8">
           <div className="text-center text-gray-400">
             <p>© {new Date().getFullYear()} Tessat. All rights reserved.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
