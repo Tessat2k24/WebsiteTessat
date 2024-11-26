@@ -1,5 +1,12 @@
 {
   "name": "tessatnew",
+  "homepage": "https://tessat.space",
+  "about": "https://tessat.space/about",
+  "projects": "https://tessat.space/projects",
+  "edutech": "https://tessat.space/edutech",
+  "news": "https://tessat.space/news",
+  "gallery": "https://tessat.space/gallery",
+  "contact": "https://tessat.space/contact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
