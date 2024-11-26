@@ -25,11 +25,10 @@ function Layout() {
     </>
   );
 }
-
 const router = createBrowserRouter(
   [
     {
-      element: <Layout />, // Wrap all routes with the Layout
+      element: <Layout />,
       children: [
         { path: "/", element: <Landing /> },
         { path: "/gallery", element: <Gallery /> },
@@ -44,6 +43,7 @@ const router = createBrowserRouter(
     },
   ],
   {
+    basename: "/", // Set base path for React Router
     future: {
       v7_relativeSplatPath: true,
       v7_fetcherPersist: true,
