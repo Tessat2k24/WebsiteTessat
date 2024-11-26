@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("/src/Fonts/Gotham-Book.woff2") format("woff2"), /* Modern browsers */
+       url("/src/Fonts/Gotham-Book.woff") format("woff"),   /* Older browsers */
+       url("/src/Fonts/Gotham-Book.otf") format("opentype"); /* Fallback for OTF */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham-Book";
+
+}
+ body{
+    background-color: #04070d;
+
+}
